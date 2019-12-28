@@ -12,7 +12,7 @@ end
 #.collect version
 def square_array_collect(array)
   array.collect do |number|
-    number*number
+    number = number*number
   end
 end
 
