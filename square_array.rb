@@ -10,3 +10,11 @@ def square_array(array)
 end
 
 #.collect version
+def square_array_collect(array)
+  array.collect do |number|
+    number*number
+  end
+end
+
+array = [2, 4, 6, 8]
+square_array_collect(array)
