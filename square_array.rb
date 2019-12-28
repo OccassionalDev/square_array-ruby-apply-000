@@ -18,3 +18,4 @@ end
 
 array = [2, 4, 6, 8]
 square_array_collect(array)
+puts array
